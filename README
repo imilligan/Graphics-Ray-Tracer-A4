@@ -1,0 +1,27 @@
+The final executable was compiled on this machine:
+gl09 
+
+How to invoke my program: 
+Execute the binary ./rt {FILE_NAME}
+
+How to use my extra features: 
+The extra feature included is super-sampling anti-aliasing.  The program by default has a supersampling factor of 3: for every pixel in the image, 9 are traced and averaged to create a smooth image.  The feature can be turned off by editing line 13 of a4.cpp and replacing the value with '1.0'.  The image sample.png does not have supersampling enabled. sample-small-aa.png and sample-small.png are both examples of supersampling turned on and off respectively.
+
+Extra scene provided:
+The scene is of the majestic golden cow floating upon the sea, amid a red sunset.  The cow and parts of the boat are made from polygon meshes.  The buoys, mountains and sun are all made geometric spheres and cubes, translated appropriately.  There are two light sources in the image: one orange light right above the sun, and the other, a faint light emitting from the camera.
+
+I have created the following data files, which are in the data directory:
+Rendered images:
+- macho-cows.png
+- macho-cows-bb.png
+- nonhier.png
+- sample-small-aa.png
+- sample-small.png
+- sample.png
+Lua files associated with the submitted:
+- macho-cows.lua
+- nonhier.lua
+- sample.lua
+
+My program assumes the following: 
+N/A
